@@ -1,0 +1,119 @@
+.card  {
+    background-color:aqua ;  
+    width: 1000px;
+    height: 800px;
+    margin: 100px auto;
+    position: relative;
+    z-index: 0;
+   
+  }
+  .cara {
+    position: absolute;
+    top: 32%;
+    right: 35%;
+    z-index: 20%;
+  }
+   
+  .oreja-izquierdo {
+    position: absolute;
+    top: 35%;
+    right: 33%; 
+  }
+  
+   .oreja-derecho {
+    position: absolute;
+    top: 35%;
+    right: 58%; 
+  }
+  .sombrero  {
+    position: absolute;
+    top: 20%;
+    right: 38%; 
+  }
+
+  .ojo-izquierdo  {
+    position: absolute;
+    top: 35%;
+    right: 42%; 
+    z-index: 3;
+  }
+  .ojo-derecho  {
+    position: absolute;
+    top: 35%;
+    right: 50%; 
+    z-index: 3;
+  }
+  .pie-izquierdo {
+    position: absolute;
+    top: 76%;
+    right: 50%; 
+    z-index: -5;
+  }
+  .pie-derecho{
+    position: absolute;
+    top: 76%;
+    right: 35%; 
+    z-index: -5;
+  }
+  .bigote:hover{
+    transform: rotate(45deg);
+  }
+  .bigote{
+    position: absolute;
+    top: 56%;
+    right: 40%; 
+  }
+  .nariz{
+    position: absolute;
+    top: 43%;
+    right: 43%; 
+    z-index: 3;
+  }
+  .nariz:hover{
+    transform: rotate(360deg);
+    transition: 0.3s;
+  }
+  .bigote {
+    position: absolute;
+    top: 60%;
+    right: 40%; 
+    z-index: 3;
+  }
+  .sombrero:hover 
+{
+  transform: rotatex(160deg);
+  transition: transform 2s ease;
+    
+}
+  .ojo-izquierdo:hover 
+{
+  transform: translateY(-100px);
+  transition: transform 1s ease;
+    
+}
+  .ojo-derecho:hover{
+    transform: rotate(360deg);
+    transition: transform 2s ease;
+}
+ .pie-izquierdo:hover{
+  transform: rotate(60deg);
+}
+ .pie-derecho:hover{
+  transform: rotate(60deg);
+}
+  .oreja-derecho:hover
+{
+  transform: rotate(360deg);
+  transition: transform 2s ease;
+}
+  .oreja-izquierdo:hover
+{
+  transform: rotate(360deg);
+  transition: transform 2s ease;
+}
+
+
+
+
+
+
